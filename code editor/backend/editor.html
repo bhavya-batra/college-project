@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+    <title>CODE EDITOR</title>
+    <meta name="description" content="Online Compiler">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+   
+    <!-- <label>Filename</label>
+    <input type="text" id="filename" value="hello.txt" /> -->
+    
+    <div class="editor-menu"> 
+        <img class="logo" src="/logohome.png" alt="" >
+            
+        <button class="btn btnsave" id="button" title="print"><i class="fa fa-save">
+
+        </i></button>
+        <div class="dropdown">
+            <button class="btn btn-file" title="""><i class="fa fa-file"></i></button>
+            <div class="dropdown-content">
+              <a href="/Home.html">Home</a>
+              <a href="/contact page/contact.html">Contact us</a>
+              <a href="/LOGIN page/sign.html">Sign up</a>
+              <a href="/about us/about.html">About us</a>
+            </div>
+          </div>
+        <button class="btn btn-dark" title="Dark Mode"><i class="fa fa-moon-o"></i></button>
+        <button class="btn btn-light" title="Light Mode"><i class="fa fa-sun-o"></i></button>
+        <button class="btn btn-run" title="RUN"><i class="fa fa-play"></i></button>
+        <div class="live"></i>
+            <label for="live">Live-</label>
+            <input type="checkbox" id="live">
+        </div>
+        <span class="w3-right w3-small" style="padding: 8px 16px 8px 0;display: block;float: right;">
+        <span id="framesize">
+            Result Size: 
+            <span></span>
+        </span>
+        <span>
+        <label for="result" id="result"></label>
+        </span>
+    </div>
+
+    <div class="container">
+        
+        <div class="left">
+            <div class="editor" contentEditable="true">
+    
+                Start Writing your code from here....
+            </div>
+        </div>
+        <div class="bar" title="Click & Drag">
+
+        </div>
+        
+        <div class="right">
+            <iframe src="" frameborder="0" class="iframe">
+            </iframe>
+        </div>
+    </div>
+    
+    <script src="editor.js"></script>
+    <div class="footer" >© copyright codera.com</div>
+</body>
+</html>
